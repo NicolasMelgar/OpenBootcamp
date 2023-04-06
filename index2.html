@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Formularios en HTML</title>
+</head>
+<body>
+<!--
+Crea un nuevo documento HTML que cumpla los siguientes parámetros:
+
+
+El body debe contener un formulario que cumpla las siguientes características
+
+El atributo action será "/"
+
+Debe contener los siguientes campos:
+
+Un campo de texto llamado "nombre"
+
+Un campo numérico llamado "edad"
+
+Un campo de área de texto llamado "frase-favorita"
+
+Un botón de envío
+
+Un botón de reset
+-->   
+
+<h3>Formulario de prueba 2 Open Bootcamp</h3>
+
+<form action="/", method="get">
+
+<label for="nombre">Nombre   <input placeholder="Escriba su nombre" id="nombre" type="text" required></label>
+<br><br>
+<label for="edad">Edad   <input placeholder="Escriba su edad" id="edad" type="number" min = "1" max = "120" required></label>
+<br><br>
+<label for="nombre">Frase Favorita</label>
+<br>
+<textarea name="" id="" cols="30" rows="10">Mi frase favorita es: "Nada  nos deja más en soledad que la alegría si se va"</textarea>
+<br> <br>
+<input type="reset" name="restablecer" id="restablecer">
+<br><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
