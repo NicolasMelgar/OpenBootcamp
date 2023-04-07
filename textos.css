@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 700;/*mas de 400 se empieza a poner negrita*/
+}
+
+.fuenteWeb{
+    font-family: 'Rubik Pixels', cursive;
+    /* 
+    tambien puedo poner acá el link a la fuente font family en lugar de 
+    pegarlo en el documento html 
+    y debería usar el import en lugar del link que me da google en su web
+    Lo tengo que poner al principio del documento CSS (es el @import*/
+   
+}
+

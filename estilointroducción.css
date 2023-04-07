@@ -1,0 +1,36 @@
+/*primero pongo la imagen desde la web despues desde mi carpeta local
+en position puedo jugar con left left, top left etc (top, left, rigth, bottom*/
+
+
+
+section{
+   /* background-color: aqua;*/
+    background-image: url(IMG/mario\ bros.jpg);
+    background-position: left bottom;
+}
+/*lo malo de los px es que no es responsive*/
+.ancho{
+    width: 100px;
+    background-image: url("https://th.bing.com/th/id/OIP.7v1c5FON6Z5j4nBx0tB8XwHaE7?pid=ImgDet&rs=1");
+    background-position: left top;
+}
+
+.alto{
+    height: 200px;
+    background-image: url("https://th.bing.com/th/id/OIP.7v1c5FON6Z5j4nBx0tB8XwHaE7?pid=ImgDet&rs=1");
+    background-position: left top;
+}
+
+.tarjeta{
+    border: 2px solid red;
+    /*
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    */
+    background-color: aqua;
+    padding: 10px 20px;
+    margin: 10px 20px;
+
+}
+
