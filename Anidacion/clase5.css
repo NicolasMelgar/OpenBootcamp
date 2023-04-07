@@ -1,0 +1,66 @@
+.hover:hover{
+    background-color: green;
+    color: white;
+}
+
+/* ejemplo para enlaces a (link)*/
+/*EN ESTE ORDEN!!*/
+/*Las seudoclases van despues de :*/
+a:link{
+    color: red; /*link no visitado*/
+}
+
+a:visited{
+    color: aqua;/*link ya visitado*/
+}
+
+a:hover{
+    color: violet;/*me pinta cuando me paro encima*/
+}
+
+a:active{
+    color: green;/*color cuando le hago clik*/
+}
+
+/*pseudoelementos Van despues de ::*/
+
+p{
+    background-color: beige;
+}
+
+span{
+    font-style: italic;
+    font-size: 22px;
+}
+
+.pseudoelem::before{
+    content: '<<';
+}
+
+.pseudoelem::after{
+    content: '"  ';/*Ojo que los espacios valen acá*/
+}
+
+.uno::first-letter{
+    font-size: xx-large;
+}
+
+.dos::first-line{
+    font-weight: bold;
+    color: red
+}
+/*esto podría ser interesante aplicado a todo el HTML*/
+.dos::selection{/*cambia el color cuando selecciono el texto*/
+color:brown;
+background-color: greenyellow;
+}
+
+ul li::marker{
+    color: red;
+}
+
+ol li::marker{
+    color: #04345e;
+}
+
+

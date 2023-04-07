@@ -1,0 +1,43 @@
+.hover:hover{
+    background-color: green;
+    color: white;
+    
+  
+}
+
+button{
+    width: 250px;
+    height: 50px;
+   
+}
+
+button::before{
+    content: "Pasa por encima";
+    top: 30%;
+    left: 5%;
+    position: relative;
+  
+
+}
+
+
+button::after{
+    content: "Hecho!";
+    opacity: 0;
+    top: -10%;
+    left: -10%;
+    position: relative;
+}
+
+button:hover::before{
+    opacity: 0;
+    top: 10%;
+    left: 10%;
+}
+
+button:hover::after{
+    opacity: 1;
+    top: 10%;
+    left: 10%;
+}
+
