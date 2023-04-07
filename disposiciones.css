@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+  
+}
+
+.video{
+    width: 100vw;
+    height: 100vw;
+    object-fit: cover ;/*no se comprime al agrandar y achicar la pag*/
+    position: fixed;
+}
+
+header{
+    color: aliceblue;
+    font-size: 36px;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    width: 100vw;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    padding-top: 50px;
+}
+
+section {
+    display: flex;
+    position: absolute;/*esto no se ve si no le pongo un backgroun color*/
+
+}
+
+p{ 
+    font-size: 22px;
+    padding-top: 300px;
+    position:relative ;
+    color: antiquewhite;
+    margin-left: 25px;
+    }
+
+div {
+    display: flex;
+}
+span{ 
+    font-size: 22px;
+    padding-top: 300px;
+    position: relative;
+    color: antiquewhite;
+    margin-left: 275px;
+    padding-top: 350px;
+    }    
+
+.galeria{
+
+    display: flex;
+    justify-content:space-around;/*space-beetween tambien es otra forma de distribuirlo*/
+    flex-wrap: wrap;/*con esto le digo que arme columnas si es necesario*/
+    gap: 25px;/*Me da una sepación entre las IMG*/
+    background-color: aliceblue;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+
+img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+
+.galeria img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
