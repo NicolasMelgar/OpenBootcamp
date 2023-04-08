@@ -1,0 +1,55 @@
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;/*esto no funciona en el type*/
+}
+
+.input[type="password"]{
+    
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid #999999;
+    outline: none; /*saca la linea que aparece si vamos a escribir el input*/
+    padding: 5px;
+    color: #5f5f5f; 
+    width: 45%;
+}
+.input-moderno::placeholder {
+    color: #2c2c2c;
+    opacity: .5;
+}
+.input-moderno:focus{
+    border-bottom: 2px solid black; 
+    
+}
+
+.input-background {
+    background-color: #81cece ;
+    width: 45%;
+    border: none; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
+.input-search {
+    margin: 10px;
+    padding: 10px; 
+    border: none; 
+    background-color: grey;
+    border-radius: 15px; 
+/*puedo poner el icono de la lupa con background-imagen //background-position//background-repeat:none*/
+}
+
+.textarea {
+    /*resize: none;/*para que no se pueda modificar el text area*/
+    resize: horizontal;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+}

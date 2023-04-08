@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{ 
+    display: flex;
+    flex-direction: column;/*el eje principal es el de las y*/
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 450px;
+    margin: auto;
+}
+
+h3 {
+    text-align: left;
+    display: flex;
+}
+/*Boton de google*/
+/*----------------------------------------------*/
+
+.google-btn {
+    background-color: hsl(214, 82%, 39%);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    align-self: flex-start;/*aplica solo sobre el boton (self)*/
+}
+
+.google-btn picture{
+    width: 30px;
+    height: 35px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*para ajustar el logo que quedaba gigante*/
+.google-btn picture img{
+    width: 95%;
+    height: 80%;
+    padding-top: 5px;
+}
+
+.google-btn:hover{
+    opacity: 0.6;
+    
+}
+
+.google-btn span {
+    color: white;
+    padding: 15px;
+}
+
+
+
+
+/*Boton de twitter*/
+/*------------------------------------------------*/
+
+
+.twitter{
+    width: 45px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+
+.twitter picture {
+        width: 30px;
+        height: 35px;
+        background-color: white;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.twitter picture img{
+    width: 75%;
+}
+
+.twitter:hover{
+    opacity: 0.6;
+    background-color: beige;
+}
+
+
+
+.buttons{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+
+}
+
+/*----------------SEPARADOR----------------*/
+
+.separador {
+    display: flex; /*para que quede todo en la misma linea*/
+    width: 60%;
+    gap: 15 px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.separador hr {
+    flex-grow: 0.6;/*esto es para que los hr se expandan al máximo*/
+    border: none;
+    border-top: 1px solid grey;
+    overflow: visible;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.separador span {
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------FORMULARIO--------------*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+/*-----------SECCION INPUTS---------------*/
+
+.seccion-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+label {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+label span {
+    font-weight: 700;
+}
+
+label input {
+    width: 80%;
+    background-color: #f3f3f4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.3s, border 0.3s, box-shadow 0.3s ;
+}
+
+label input:hover{
+    background-color: white;
+    border: 2px solid #f3f3f4;
+    box-shadow: 0 0 4px pink;
+}
+
+label input:focus{
+    background-color: white;
+    border: 2px solid #f3f3f4;
+    box-shadow: 0 0 4px pink;
+}
+
+#Lcheckbox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#checkbox {
+    display: flex;
+    width: 20px;
+}
+p {
+    display: flex;
+    font-size: 10pt;
+    margin: 2px 2px;
+}
+
+.crear-cuenta {
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(213, 100, 173);
+    border-color: antiquewhite;
+    cursor: pointer;
+}
+
+.crear-cuenta:hover {
+    opacity: 0.6;
+}
+
+#pass {
+    font-size: 10pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
