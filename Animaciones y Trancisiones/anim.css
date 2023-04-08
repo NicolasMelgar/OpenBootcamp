@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.btn-moderno{
+    width: 150px;
+    height: 50px;
+    font-size: 24pt;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid #373636;/*esto se puede usar buscando un efecto 3d*/
+    cursor: pointer;
+    /*transition:  3s;/*esta propiedad hace "entrar" al boton*/
+    transition: background-color 1s;
+}
+
+.btn-moderno:hover{
+transform: translateX(-5px);
+background-color: green;
+transition: all 0.4s;
+box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
