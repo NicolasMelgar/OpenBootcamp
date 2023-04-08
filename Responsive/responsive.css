@@ -1,0 +1,50 @@
+
+     
+/*variables en CSS
+:root{
+    --color-principal: red; 
+    --ancho-principal: 250px;
+}
+cuando las quiera usar debo poner var(--color-principal) en el elemento al que se lo deseo aplicar*/
+
+
+body {
+    display: flex;
+    background-color: black;
+    height: 100%;
+}
+.contenedor {
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+}
+
+.barra {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+.seccion {
+    display: flex;
+    flex-grow: 1;
+    background-color: green;
+    margin: 10px;
+}
+
+/*Poner los @media al final*/
+
+@media (max-width: 640px) {
+    
+    .contenedor {
+        display: flex;
+        background-color: #d0ff00;
+        flex-direction: column-reverse;
+    }
+    .barra {
+        flex-direction: row;
+    }
+
+}
